@@ -1,0 +1,13 @@
+{
+  "syntaxVersion": 3,
+  "projectPackageId": "app.biking",
+  "authority": "app.biking.provider",
+  "providerJavaPackage": "app.biking.provider",
+  "providerClassName": "Provider",
+  "sqliteOpenHelperClassName": "BicingOpenHelper",
+  "sqliteOpenHelperCallbacksClassName": "BicingOpenHelperCallbacks",
+  "databaseFileName": "biking.db",
+  "databaseVersion": 1,
+  "enableForeignKeys": true,
+  "useAnnotations": true
+}

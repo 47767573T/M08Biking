@@ -1,0 +1,41 @@
+{
+  "documentation": "A human being which is part of a team.",
+  "fields": [
+    {
+      "documentation": "latitud de la estacion",
+      "name": "latitud",
+      "type": "Double",
+      "nullable": true
+    },
+    {
+      "name": "longitud",
+      "type": "Integer",
+      "nullable": true
+    },
+    {
+      "name": "nombrecalle",
+      "type": "String",
+      "nullable": true,
+      "defaultValue": "calle falsa"
+    },
+    {
+      "name": "numcalle",
+      "type": "Integer",
+      "nullable": true,
+      "defaultValue": 0
+    },
+    {
+      "name": "plazaslibres",
+      "type": "Integer",
+      "nullable": true,
+      "defaultValue": 0
+    },
+    {
+      "name": "maxplazas",
+      "type": "Integer",
+      "nullable": true,
+      "defaultValue": 50
+    }
+
+  ]
+}
